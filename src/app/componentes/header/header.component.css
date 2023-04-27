@@ -1,0 +1,12 @@
+a {
+    margin: 15px;
+    font-size: xx-large;    
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    color: blue;
+}
+    
