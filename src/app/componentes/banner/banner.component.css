@@ -1,12 +1,32 @@
-#fototeclado {
-    width: 102%;
-    height: 40%;
+#banner {
+    display: flex;
+    background-image: url(../../../assets/img-teclado-propia.jpg);
+    
 }
 
+.col-8{
+    padding: 36px;
+}
+
+.col-4 {
+    display: flex;
+    justify-content: center;
+}
 #fotoperfil {
-    
-    position: absolute; top: 26%; left: 5%;
-    border-radius: 50%;
-    width: 20%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 50%;
     height: auto;
+    border-radius: 50%;
+} 
+
+#presentacion {
+    text-align: start;
+}
+
+h3, p {
+    margin: 0%;
+    color: white;
 }
