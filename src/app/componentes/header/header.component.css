@@ -1,3 +1,9 @@
+#logo {
+    margin: 5px;
+    width: 280px;
+    height: auto;
+}
+
 a {
     margin: 15px;
     font-size: xx-large;    
