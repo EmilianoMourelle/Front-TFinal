@@ -1,6 +1,7 @@
 #banner {
     display: flex;
     background-image: url(../../../assets/img-teclado-propia.jpg);
+    background-size: 100% 100%;
     
 }
 
@@ -31,6 +32,3 @@ h3, p {
     color: white;
 }
 
-.row {
-    --bs-gutter-x: 0rem;
-}

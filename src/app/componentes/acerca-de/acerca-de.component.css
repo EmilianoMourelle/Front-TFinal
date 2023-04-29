@@ -8,5 +8,6 @@
 
 .card-header {
     background-color: rgb(50, 30, 130);
+    border: solid 2px white;
 }
 
