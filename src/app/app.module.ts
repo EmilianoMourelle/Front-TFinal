@@ -8,6 +8,9 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
+import {HttpClientModule} from '@angular/common/http'
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,22 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
     BannerComponent,
     AcercaDeComponent,
     ExperienciaComponent,
-    EducacionComponent
+    EducacionComponent,
+    HabilidadesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    NgCircleProgressModule.forRoot({      
+      radius: 80,
+      outerStrokeWidth: 10,
+      innerStrokeWidth: 6,
+      outerStrokeColor: "#03045E",
+      innerStrokeColor: "#4CC9F0",
+      animationDuration: 300,
+      
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

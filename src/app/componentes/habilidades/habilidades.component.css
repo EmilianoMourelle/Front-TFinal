@@ -1,0 +1,22 @@
+* {
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(50, 30, 130);
+    border: solid 2px white;
+}
+
+
+.card-body {
+    background-color: white;
+    border: solid 2px rgb(50, 30, 130);
+    margin: 0%;
+}
