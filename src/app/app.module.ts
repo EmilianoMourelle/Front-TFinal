@@ -11,6 +11,8 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import {HttpClientModule} from '@angular/common/http'
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { PiepaginaComponent } from './componentes/piepagina/piepagina.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HabilidadesComponent } from './componentes/habilidades/habilidades.comp
     AcercaDeComponent,
     ExperienciaComponent,
     EducacionComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    ProyectosComponent,
+    PiepaginaComponent
   ],
   imports: [
     BrowserModule,
