@@ -25,20 +25,13 @@ import { PiepaginaComponent } from './componentes/piepagina/piepagina.component'
     HabilidadesComponent,
     ProyectosComponent,
     PiepaginaComponent
-  ],
-  imports: [
+   ],
+
+    imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgCircleProgressModule.forRoot({      
-      radius: 80,
-      outerStrokeWidth: 10,
-      innerStrokeWidth: 6,
-      outerStrokeColor: "#03045E",
-      innerStrokeColor: "#4CC9F0",
-      animationDuration: 300,
-      
-    })
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
