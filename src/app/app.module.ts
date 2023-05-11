@@ -14,6 +14,7 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
 import { PiepaginaComponent } from './componentes/piepagina/piepagina.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { LoginComponent } from './componentes/login/login.component';
     AppRoutingModule,
     HttpClientModule,
     NgCircleProgressModule.forRoot({}),
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,11 @@
+form {
+    margin: 3% 20%;
+    padding: 14px;
+    border: solid 1px #6666;
+    border-radius: 6px;
+    box-shadow: 2px -1px 7px #8888;
+}
+
+h1 {
+    text-align: center;
+}
